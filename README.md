@@ -2,7 +2,10 @@
 
 STM32F407VGT6 mikrodenetleyicisi ve BME280 ortam sensörü temel alınarak tasarlanmış, USB Type-C üzerinden programlanabilen açık kaynaklı bir PCB tasarımıdır. Bu kart, ilerleyen sürümlerde motor kontrolü, uçuş sensörleri ve gelişmiş güç dağıtım entegreleri eklenerek tam donanımlı bir uçuş kartına dönüştürülmek üzere geliştirilmektedir.
 
+
+<img width="862" height="750" alt="image" src="https://github.com/user-attachments/assets/5ab9c743-2e3c-4351-a40d-1194fb99a00d" />
 <img width="635" height="555" alt="image" src="https://github.com/user-attachments/assets/dc1018f7-42a0-45ed-ac7f-14e49a9d01e5" />
+
 
 
 ---

@@ -43,18 +43,12 @@ s__BMe_280-PCB-example__/
 ### 2. Malzemeleri Temin Edin
 `BOM/` klasöründeki malzeme listesini kullanarak bileşenleri temin edin. Bileşenler LCSC ve Mouser üzerinden kolaylıkla bulunabilir.
 
-### 3. Kartı Programlayın
-**USB üzerinden (DFU modu):**
-1. BOOT0 jumper'ını takın (3.3V'a bağlı konuma getirin)
-2. USB Type-C kablosuyla bilgisayara bağlayın
-3. STM32CubeProgrammer ile `.hex` veya `.bin` dosyanızı yükleyin
-4. BOOT0 jumper'ını çıkarın ve kartı yeniden başlatın
 
 **SWD üzerinden:**
 1. ST-Link veya J-Link programlayıcıyı CN1 konnektörüne bağlayın
 2. STM32CubeIDE veya OpenOCD üzerinden programlayın
 
-### 4. BME280 Sensörünü Kullanın
+### 3. BME280 Sensörünü Kullanın
 Sensör varsayılan olarak **I2C adresi 0x76** ile yapılandırılmıştır. SDO pinini 3.3V'a bağlayarak adresi 0x77 olarak değiştirebilirsiniz.
 
 ---
